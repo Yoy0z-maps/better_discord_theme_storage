@@ -1,0 +1,79 @@
+/**
+* @name Ayatsuno Yuni
+* @author Yoy0z_maps
+* @version 1.0.0
+* @description Stellive universe Ayatsuno Yuni Theme (Fan Made)
+* @source https://github.com/Yoy0z-maps/better_discord_theme_storage
+*/
+
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+:root {
+  --main-color: #857fd8;
+  --hover-color: #9a95e6;
+  --success-color: #63c7a3;
+  --danger-color: #d86a8a;
+
+  --background-image: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/ayatsuno_yuni/background_image.webp");
+  --background-position: center;
+  --background-size: cover;
+  --background-attachment: fixed;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+
+  --home-icon: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/refs/heads/main/ayatsuno_yuni/home_image.jpeg");
+  --home-size: cover;
+
+  --user-popout-image: var(--background-image);
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-attachment: fixed;
+  --user-popout-filter: none;
+
+  --user-modal-image: var(--background-image);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-attachment: fixed;
+  --user-modal-filter: none;
+}
+
+.leading_c38106,
+.c38106a3f0c3ca76-leading {
+  display: none !important;
+}
+
+.bar_c38106 {
+  position: relative !important;
+}
+
+.bar_c38106::before {
+  content: "Stellive Ayatsuno Yuni";
+  position: absolute;
+  left: 164px;
+  top: 50%;
+  transform: translateY(-56%);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-default);
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+  text-shadow:
+    0 0 1px rgba(133, 127, 216, 1),
+    0 0 2px rgba(133, 127, 216, 0.85),
+    0 0 5px rgba(133, 127, 216, 0.45);
+}
+
+.bar_c38106::after {
+  content: "V 1.0.0";
+  position: absolute;
+  left: 314px;
+  top: 46%;
+  transform: translateY(-42%);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+}
