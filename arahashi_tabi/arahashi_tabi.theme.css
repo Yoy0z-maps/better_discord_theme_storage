@@ -1,8 +1,8 @@
-/**
-* @name Ayatsuno Yuni
+/*
+* @name Arahashi Tabi
 * @author Yoy0z_maps
 * @version 1.0.0
-* @description Stellive Everys Ayatsuno Yuni Theme (Fan Made)
+* @description Stellive Universe Arahashi Tabi Theme (Fan Made)
 * @source https://github.com/Yoy0z-maps/better_discord_theme_storage
 */
 
@@ -10,18 +10,18 @@
 @import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
 
 :root {
-  --main-color: #857fd8;
-  --hover-color: #9a95e6;
-  --success-color: #63c7a3;
-  --danger-color: #d86a8a;
+  --main-color: #94bef4;
+  --hover-color: #a9ccf7;
+  --success-color: #6fc4a7;
+  --danger-color: #e07a8a;
 
-  --background-image: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/ayatsuno_yuni/background_image.png");
+  --background-image: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/arahashi_tabi/background_image.jpg");
   --background-position: center;
   --background-size: cover;
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
 
-  --home-icon: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/refs/heads/main/ayatsuno_yuni/home_image.jpeg");
+  --home-icon: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/arahashi_tabi/home_image.jpg");
   --home-size: cover;
 
   --user-popout-image: var(--background-image);
@@ -47,7 +47,7 @@
 }
 
 .bar_c38106::before {
-  content: "Stellive Ayatsuno Yuni";
+  content: "Stellive Arahashi Tabi";
   position: absolute;
   left: 164px;
   top: 50%;
@@ -59,15 +59,15 @@
   z-index: 9999;
   pointer-events: none;
   text-shadow:
-    0 0 1px rgba(133, 127, 216, 1),
-    0 0 2px rgba(133, 127, 216, 0.85),
-    0 0 5px rgba(133, 127, 216, 0.45);
+    0 0 1px rgba(148, 190, 244, 1),
+    0 0 2px rgba(148, 190, 244, 0.85),
+    0 0 5px rgba(148, 190, 244, 0.45);
 }
 
 .bar_c38106::after {
   content: "V 1.0.0";
   position: absolute;
-  left: 314px;
+  left: 330px;
   top: 46%;
   transform: translateY(-42%);
   font-size: 11px;

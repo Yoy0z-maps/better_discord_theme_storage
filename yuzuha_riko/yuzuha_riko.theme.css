@@ -1,27 +1,26 @@
 /**
-* @name Ayatsuno Yuni
+* @name Yuzuha Riko
 * @author Yoy0z_maps
 * @version 1.0.0
-* @description Stellive Everys Ayatsuno Yuni Theme (Fan Made)
-* @source https://github.com/Yoy0z-maps/better_discord_theme_storage
+* @description Stellive Cliché Yuzuha Riko Theme (Fan Made)
 */
 
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
 
 :root {
-  --main-color: #857fd8;
-  --hover-color: #9a95e6;
-  --success-color: #63c7a3;
-  --danger-color: #d86a8a;
+  --main-color: #a6d0a6;
+  --hover-color: #b8ddb8;
+  --success-color: #7fc6b0;
+  --danger-color: #e28a8a;
 
-  --background-image: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/ayatsuno_yuni/background_image.png");
+  --background-image: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/yuzuha_riko/background_image.jpeg");
   --background-position: center;
   --background-size: cover;
   --background-attachment: fixed;
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
 
-  --home-icon: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/refs/heads/main/ayatsuno_yuni/home_image.jpeg");
+  --home-icon: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/yuzuha_riko/home_image.jpg");
   --home-size: cover;
 
   --user-popout-image: var(--background-image);
@@ -47,7 +46,7 @@
 }
 
 .bar_c38106::before {
-  content: "Stellive Ayatsuno Yuni";
+  content: "Stellive Yuzuha Riko";
   position: absolute;
   left: 164px;
   top: 50%;
@@ -59,21 +58,16 @@
   z-index: 9999;
   pointer-events: none;
   text-shadow:
-    0 0 1px rgba(133, 127, 216, 1),
-    0 0 2px rgba(133, 127, 216, 0.85),
-    0 0 5px rgba(133, 127, 216, 0.45);
+    0 0 1px rgba(166, 208, 166, 1),
+    0 0 3px rgba(166, 208, 166, 0.5);
 }
 
 .bar_c38106::after {
   content: "V 1.0.0";
   position: absolute;
-  left: 314px;
+  left: 300px;
   top: 46%;
   transform: translateY(-42%);
   font-size: 11px;
-  font-weight: 600;
   color: var(--text-muted);
-  white-space: nowrap;
-  z-index: 9999;
-  pointer-events: none;
 }
