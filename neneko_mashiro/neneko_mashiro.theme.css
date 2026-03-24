@@ -1,0 +1,79 @@
+/**
+* @name Neneko Mashiro
+* @author Yoy0z_maps
+* @version 1.0.0
+* @description Stellive universe Neneko Mashiro Theme (Fan Made)
+* @source https://github.com/Yoy0z-maps/better_discord_theme_storage
+*/
+
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+:root {
+  --main-color: #25282a;
+  --hover-color: #3a3e42;
+  --success-color: #58b58a;
+  --danger-color: #c65a5a;
+
+  --background-image: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/neneko_mashiro/background_image.jpg");
+  --background-position: center;
+  --background-size: cover;
+  --background-attachment: fixed;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+
+  --home-icon: url("https://raw.githubusercontent.com/Yoy0z-maps/better_discord_theme_storage/main/neneko_mashiro/home_image.jpg");
+  --home-size: cover;
+
+  --user-popout-image: var(--background-image);
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-attachment: fixed;
+  --user-popout-filter: none;
+
+  --user-modal-image: var(--background-image);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-attachment: fixed;
+  --user-modal-filter: none;
+}
+
+.leading_c38106,
+.c38106a3f0c3ca76-leading {
+  display: none !important;
+}
+
+.bar_c38106 {
+  position: relative !important;
+}
+
+.bar_c38106::before {
+  content: "Stellive Neneko Mashiro";
+  position: absolute;
+  left: 164px;
+  top: 50%;
+  transform: translateY(-56%);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-default);
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+  text-shadow:
+    0 0 1px rgba(37, 40, 42, 1),
+    0 0 2px rgba(37, 40, 42, 0.85),
+    0 0 5px rgba(37, 40, 42, 0.45);
+}
+
+.bar_c38106::after {
+  content: "V 1.0.0";
+  position: absolute;
+  left: 320px;
+  top: 46%;
+  transform: translateY(-42%);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+}
